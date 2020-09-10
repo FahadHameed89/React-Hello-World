@@ -8,10 +8,10 @@ import HelloStudent from './components/HelloStudent';
 ReactDOM.render(
   <React.StrictMode>
     <Hello />
-    <HelloStudent name="Fahad" age="30"/>
-    <HelloStudent name="Richter" age="72"/>
-    <HelloStudent name="Mako" age="44"/>
-
+    <HelloStudent name="Strike" cost="1MP" effect="Deals 10 Damage"/>
+    <HelloStudent name="Defend" cost="1MP" effect="Deals 10 Damage"/>
+    <HelloStudent name="Dual Slash" cost="1MP" effect="Deals 8 Damage twice"/>
+    <HelloStudent name="Circle Slash" cost="1MP" effect="Deals 8 Damage to all enemies"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
