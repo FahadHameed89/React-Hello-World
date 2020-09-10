@@ -9,6 +9,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Hello />
     <HelloStudent name="Fahad" age="30"/>
+    <HelloStudent name="Richter" age="72"/>
+    <HelloStudent name="Mako" age="44"/>
 
   </React.StrictMode>,
   document.getElementById('root')
