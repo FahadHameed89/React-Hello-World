@@ -9,7 +9,7 @@ const HelloStudent = ( props ) => {
         
     return (
         <p>
-            Hello there!{ props.name }. You cost... { props.cost }. Effect: { props.effect }.
+            Hello there!{ props.name }. You have { props.cost }. Your Passive Ability is: { props.effect }.
         </p>
     );
 }

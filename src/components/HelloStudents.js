@@ -12,7 +12,7 @@ function HelloStudents ()
 
     return ( 
         <section>
-            <h2>Our Hello to Students!</h2>
+            <h2>Hello there children!</h2>
             {studentsList}
         </section>
     );
