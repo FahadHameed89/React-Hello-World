@@ -6,12 +6,10 @@ import React from 'react';
 
 
 const HelloStudent = ( props ) => {
-    let name = props.name;
-    
-    
+        
     return (
         <p>
-            Card Name: { props.name }. MP Cost: { props.cost }. Effect: { props.effect }.
+            Hello there!{ props.name }. You cost... { props.cost }. Effect: { props.effect }.
         </p>
     );
 }
