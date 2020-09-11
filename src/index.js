@@ -9,10 +9,10 @@ import HelloStudents from './components/HelloStudents';
 ReactDOM.render(
   <React.StrictMode>
     <Hello />
-    <HelloStudent name="Jordash" cost="1MP" effect="Flash Fire"/>
-    <HelloStudent name="Marcu" cost="1MP" effect="Aqua Body"/>
-    <HelloStudent name="Slash" cost="1MP" effect="Lightning Rod"/>
-    <HelloStudent name="Spike" cost="1MP" effect="Levitate"/>
+    <HelloStudent name="Jordash" cost="12MP" effect="Flash Fire"/>
+    <HelloStudent name="Marco" cost="8MP" effect="Drizzle"/>
+    <HelloStudent name="Slash" cost="16MP" effect="Lightning Rod"/>
+    <HelloStudent name="Eris" cost="22MP" effect="Mist Form"/>
     <HelloStudents />
   </React.StrictMode>,
   document.getElementById('root')
